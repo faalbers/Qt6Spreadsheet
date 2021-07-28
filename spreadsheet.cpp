@@ -1,4 +1,4 @@
-#include "spreadsheet.h"
+#include "spreadsheet.hpp"
 
 SpreadSheet::SpreadSheet(QWidget *parent) :
     QTableWidget(parent)

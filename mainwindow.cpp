@@ -1,5 +1,5 @@
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
+#include "mainwindow.hpp"
+#include "./ui_mainwindow.h"
 
 #include <QMessageBox>
 #include <QFileDialog>
@@ -315,7 +315,7 @@ void MainWindow::goToCell()
     // using dialog exec because we need it in modal mode,meaning
     // that only dialog is accessive and nothing else
     if (dialog.exec()) {
-        QString str = dialog.lineEdit->text().toUpper();
+        QString str = dialog.get();
         //spreadsheet->setCurrentCell(str.mid(1).toInt() - 1,
         //    str[0].unicode() - ’A’);
     }

@@ -4,10 +4,10 @@
 #include <QMainWindow>
 #include <QLabel>
 #include <QCloseEvent>
-#include "finddialog.h"
-#include "gotocelldialog.h"
-#include "sortdialog.h"
-#include "spreadsheet.h"
+#include "finddialog.hpp"
+#include "gotocelldialog.hpp"
+#include "sortdialog.hpp"
+#include "spreadsheet.hpp"
 
 namespace Ui {
 class MainWindow;

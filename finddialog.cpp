@@ -1,4 +1,4 @@
-#include "finddialog.h"
+#include "finddialog.hpp"
 
 #include <QHBoxLayout>
 #include <QVBoxLayout>

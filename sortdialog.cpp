@@ -1,5 +1,5 @@
-#include "sortdialog.h"
-#include "ui_sortdialog.h"
+#include "sortdialog.hpp"
+#include "./ui_sortdialog.h"
 
 SortDialog::SortDialog(QWidget *parent) :
     QDialog(parent),
